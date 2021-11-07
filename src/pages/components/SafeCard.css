@@ -1,0 +1,41 @@
+@font-face {
+  src: url("../assets/Montserrat-Regular.ttf");
+  font-family: montserrat-regular;
+}
+@font-face {
+  src: url("../assets/Poppins-Regular.ttf");
+  font-family: poppins-regular;
+}
+
+.safecard-main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.safe-card-header-text {
+  font-family: montserrat-regular;
+  font-weight: 700;
+  font-size: 15px;
+}
+.safe-card-description-text {
+  font-family: poppins-regular;
+  font-size: 11px;
+  color: #555;
+  text-align: justify;
+  max-width: 350px;
+}
+.safecard-image-container {
+  height: 100px;
+}
+@media screen and (max-width: 740px) {
+  .safecard-image-container {
+    height: 50px;
+  }
+  .safe-card-header-text {
+    font-size: 12px;
+  }
+  .safe-card-description-text {
+    font-size: 9px;
+  }
+}

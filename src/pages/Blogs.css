@@ -1,0 +1,54 @@
+@font-face {
+  src: url("./assets/Poppins-Regular.ttf");
+  font-family: poppins-regular;
+}
+@font-face {
+  src: url("./assets/Montserrat-Regular.ttf");
+  font-family: montserrat-regular;
+}
+
+.blogs-main {
+  min-height: 80vh;
+}
+
+.blogs-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  font-family: montserrat-regular;
+}
+
+.blogs-content{
+  text-align: justify;
+  margin-top: 20px;
+  font-family: poppins-regular;
+  color: #555;
+  
+}
+
+.blogs-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.blogs-title-background {
+  height: 40vh;
+  background-color: #fccf08;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./images/blogimg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+}
+.blogs-header {
+  color: #fff;
+  font-weight: 500;
+  font-family: sans-serif;
+}

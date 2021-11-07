@@ -1,0 +1,9 @@
+.home2-main-container {
+  min-height: 70vh;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 999;
+}

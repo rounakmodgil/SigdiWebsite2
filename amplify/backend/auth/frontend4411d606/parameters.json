@@ -1,0 +1,6 @@
+{
+  "authSelections": "identityPoolAndUserPool",
+  "resourceName": "frontend4411d606",
+  "serviceType": "imported",
+  "region": "ap-south-1"
+}

@@ -1,0 +1,57 @@
+@font-face {
+  src: url("../assets/Montserrat-Regular.ttf");
+  font-family: montserrat-regular;
+}
+@font-face {
+  src: url("../assets/Poppins-Regular.ttf");
+  font-family: poppins-regular;
+}
+.card3-main-container {
+  width: 300px;
+  height: 500px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-right: 15px;
+  margin-left: 15px;
+}
+.card3-text-container {
+  padding: 10px;
+}
+.card3-header-text {
+  font-family: montserrat-regular;
+  font-size: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.card3-description-text {
+  color: #999;
+  font-family: poppins-regular;
+  font-size: 14px;
+  text-align: justify;
+  line-height: 20px;
+}
+.card3-read-more-text-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 15px;
+}
+.card3-read-more-text {
+  font-size: 12px;
+  color: #3c2022;
+  font-family: poppins-regular;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 960px) {
+  .card3-main-container {
+    margin-top: 35px;
+  }
+  .card3960-main-container {
+    margin: 10px;
+    margin-top: 35px;
+    width: 90vw;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+}

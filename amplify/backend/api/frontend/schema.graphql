@@ -1,0 +1,15 @@
+type Contact
+  @model
+  @auth(
+    rules: [
+      { allow: public, operations: [create], provider: iam }
+      { allow: groups, groups: ["admin"] }
+    ]
+  ) {
+  type: String!
+  name: String!
+  contact: String!
+  email: String!
+  description: String
+  resorted: Boolean
+}
